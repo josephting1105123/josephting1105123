@@ -14,7 +14,7 @@
 I design small tools under [Entropic Software Labs](https://entropicsoftwarelabs.com). Each one fixes one problem, runs on your device, and asks for no account.
 
 > [!NOTE]
-> **How these are built.** I do the system design: architecture, wire protocols, threat models, UX, and the specs and edge cases that pin them down. Claude (Anthropic's model) writes and tests the code against those specs, and I review it, test on real devices and ship. The design decisions in each repo are mine; most of the code is not hand-typed.
+> **How these are built.** I decide what each tool should do and how it should work: the problem, the UX and the overall approach. For OffBridge that meant the connection strategy: transfer over the LAN when both devices share a network, and when they don't, go off-grid through SoftAP or through the hotspot one of the devices is already running. Claude (Anthropic's model) designed the cryptography and the protocol details, and writes and tests the code. I review it, test on real devices and ship.
 
 ## Projects
 

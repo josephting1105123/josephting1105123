@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="200" viewBox="0 0 900 200" role="img" aria-label="Joseph Ting, Entropic Software Labs">
+  <style>
+    .bg { fill: #F8FAFC; }
+    .card { fill: #FFFFFF; stroke: rgba(15,23,42,.10); }
+    .name { fill: #0F172A; font: 600 44px "Noto Serif", Georgia, "Times New Roman", serif; }
+    .sub { fill: #475569; font: 400 18px system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif; }
+    .tag { fill: #047857; font: 600 13px system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif; letter-spacing: 2px; }
+    .dot { fill: #34D399; }
+    .grid { stroke: rgba(15,23,42,.06); }
+    @media (prefers-color-scheme: dark) {
+      .bg { fill: #0D1117; }
+      .card { fill: #141414; stroke: rgba(255,255,255,.10); }
+      .name { fill: #F5F5F5; }
+      .sub { fill: #A3A3A3; }
+      .tag { fill: #4ADE88; }
+      .dot { fill: #22C55E; }
+      .grid { stroke: rgba(255,255,255,.05); }
+    }
+  </style>
+  <rect class="bg" width="900" height="200"/>
+  <rect class="card" x="1" y="1" width="898" height="198" rx="16" stroke-width="1.5"/>
+  <g class="grid" stroke-width="1">
+    <path d="M640 0V200M700 0V200M760 0V200M820 0V200M880 0V200M620 40H900M620 100H900M620 160H900"/>
+  </g>
+  <g class="dot">
+    <circle cx="700" cy="100" r="6"/>
+    <circle cx="760" cy="40" r="4" opacity=".55"/>
+    <circle cx="820" cy="160" r="4" opacity=".55"/>
+    <circle cx="880" cy="100" r="6"/>
+    <circle cx="640" cy="160" r="3" opacity=".35"/>
+  </g>
+  <path d="M700 100L760 40L820 160L880 100" fill="none" stroke="#22C55E" stroke-width="1.5" stroke-dasharray="4 5" opacity=".7"/>
+  <text class="tag" x="48" y="60">ENTROPIC SOFTWARE LABS</text>
+  <text class="name" x="48" y="118">Joseph Ting</text>
+  <text class="sub" x="48" y="152">System design and product for small, private, no-account tools.</text>
+</svg>

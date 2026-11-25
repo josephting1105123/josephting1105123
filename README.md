@@ -22,6 +22,8 @@ I design small tools under [Entropic Software Labs](https://entropicsoftwarelabs
 <tr>
 <td width="50%" valign="top">
 
+<a href="https://github.com/josephting1105123/OffBridge"><img src="https://entropicsoftwarelabs.com/offbridge/assets/og-image.png" alt="OffBridge" width="100%"></a>
+
 ### [OffBridge](https://github.com/josephting1105123/OffBridge)
 Files and clipboard between Android and Windows with **no router and no internet**.
 
@@ -29,22 +31,12 @@ QR pairing, then a Bluetooth LE control channel brings up a direct Wi-Fi link, w
 
 `Android` `Windows` `BLE` `Wi-Fi Direct` `E2E encryption`
 
+[**Google Play**](https://play.google.com/store/apps/details?id=com.EntropicSoftwareLab.ClipboardShare) · [**Windows installer**](https://github.com/josephting1105123/OffBridge/releases/latest/download/OffBridgeSetup.exe)
+
 </td>
 <td width="50%" valign="top">
 
-### [Spectrum+](https://github.com/josephting1105123/Spectrum-Plus)
-An unofficial Android companion for Universiti Malaya's Moodle.
-
-Filters each course down to your own occurrence, so you see only your classes, posts and deadlines, and checks for changes in the background. The session token stays encrypted on the phone; there is no server in between.
-
-`Android` `Moodle` `On-device`
-
-[**Download APK**](https://github.com/josephting1105123/Spectrum-Plus/releases/latest/download/Spectrum.apk)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+<a href="https://github.com/josephting1105123/Schedule"><img src="https://entropicsoftwarelabs.com/assets/og/schedule-2.jpg" alt="Schedule" width="100%"></a>
 
 ### [Schedule](https://github.com/josephting1105123/Schedule)
 A calendar for the calendars already on your phone.
@@ -56,7 +48,11 @@ Today, week and month views plus home-screen widgets. Edits go back to the same 
 [**Download APK**](https://github.com/josephting1105123/Schedule/releases/latest/download/Schedule.apk)
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
+
+<a href="https://github.com/josephting1105123/Voting-App"><img src="https://entropicsoftwarelabs.com/assets/og/quick-vote.jpg" alt="Quick Vote" width="100%"></a>
 
 ### [Quick Vote](https://github.com/josephting1105123/Voting-App)
 Real-time polls joined with a 6-digit PIN.
@@ -65,15 +61,31 @@ The admin admits voters and watches results update live. Node, Express and Socke
 
 `Node.js` `Socket.IO` `PWA`
 
+[**Try it**](https://entropicsoftwarelabs.com/quick-vote/)
+
+</td>
+<td width="50%" valign="top">
+
+<a href="https://github.com/josephting1105123/Card-Games"><img src="https://entropicsoftwarelabs.com/assets/og/card-games-2.jpg" alt="Card Games" width="100%"></a>
+
+### [Card Games](https://github.com/josephting1105123/Card-Games)
+Dou Di Zhu 斗地主, Big Two 锄大地, Blackjack and Texas Hold'em against bots.
+
+An offline PWA with no build step and no dependencies. Seven bot strengths, measured over thousands of simulated deals, plus local and online multiplayer rooms.
+
+`JavaScript` `PWA` `Game AI`
+
+[**Play it in your browser**](https://josephting1105123.github.io/Card-Games/)
+
 </td>
 </tr>
 <tr>
 <td colspan="2" valign="top">
 
-### [Card Games](https://github.com/josephting1105123/Card-Games)
-Dou Di Zhu 斗地主, Big Two 锄大地, Blackjack and Texas Hold'em against bots, as an offline PWA with no build step and no dependencies. &nbsp;[**Play it in your browser**](https://josephting1105123.github.io/Card-Games/)
+### [Spectrum+](https://github.com/josephting1105123/Spectrum-Plus)
+An unofficial Android companion for Universiti Malaya's Moodle. Filters each course down to your own occurrence, so you see only your classes, posts and deadlines, and checks for changes in the background. The session token stays encrypted on the phone; there is no server in between.
 
-`JavaScript` `PWA` `Game AI`
+`Android` `Moodle` `On-device` &nbsp; [**Download APK**](https://github.com/josephting1105123/Spectrum-Plus/releases/latest/download/Spectrum.apk)
 
 </td>
 </tr>
